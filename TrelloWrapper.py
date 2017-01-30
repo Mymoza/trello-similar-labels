@@ -25,7 +25,7 @@ def levenshtein_distance(first, second):
        distance_matrix[i][0] = i
     for j in range(second_length):
        distance_matrix[0][j]=j
-    for i in xrange(1, first_length):
+    for i in range(1, first_length):
         for j in range(1, second_length):
             deletion = distance_matrix[i-1][j] + 1
             insertion = distance_matrix[i][j-1] + 1
@@ -37,7 +37,7 @@ def levenshtein_distance(first, second):
 
 # Print the name of the board to make sure we are on the right one
 my_board = client.get_board(board_id='588ac0fdb470f37826a8e06c')
-print my_board
+print(my_board)
 
 
 list_labels = my_board.get_labels()
@@ -45,16 +45,16 @@ list_labels = my_board.get_labels()
 for i in range(0, len(list_labels)-1):
     for k in range(i+1, len(list_labels)):
         if len(list_labels[i].name) >=2 and len(list_labels[k].name) >= 2 and levenshtein_distance(list_labels[i].name, list_labels[k].name) == 1:
-            print list_labels[i].name, " and ", list_labels[k].name, " are similar"
+            print(list_labels[i].name, " and ", list_labels[k].name, " are similar")
 
 
 
 # Print the labels of the board
-print my_board.get_labels()
+#print(my_board.get_labels())
 
 # Print the labels of the boards in ID
 obj = client.fetch_json('/boards/588ac0fdb470f37826a8e06c/labels',  http_method='GET')
-print obj
+#print(obj)
 
 
 

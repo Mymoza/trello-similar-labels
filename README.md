@@ -1,5 +1,5 @@
 # Trello-Similar-Labels
-Challenge with Trello API in Python
+Challenge with Trello API in Python. This script can be used to detect similar label in a Trello board. 
 
 # Steps to use the script
 
@@ -108,3 +108,5 @@ Bugs I had to fix:
 * I'd love to use Flask or Django to do a mini web app (never used those two), would be a learning activity too! 
 
 * Complete the readme for the installation process 
+
+* I'd like to ask the user which board he wants to use for the detection 

@@ -20,15 +20,15 @@ Bugs I had to fix:
 
 * I had troubles to use pip. When I was doing `pip install`, it always said `permission denied`! When I looked around on the internet on a way to fix this, I read that it's not a "good practice" to use sudo. So then I found myself searching for an hour or two how to solve this problem without using sudo, because it's not the best thing to do. If I recall correctly, I fixed this problem with a parameter like `--user` or `easy_install` 
 
-* I had a problem with pip, so it said I needed to upgrade it. I did, but when I did, I created another problem elsewhere. I searched a bit on StackOverflow and was able to fix the problem with another command... 
+* I had another problem with pip. It said I needed to upgrade pip to solve the problem. I did, but at the same time I created another problem elsewhere. I searched a bit on StackOverflow and was able to fix the problem with another command... 
 
 * The package I chose to use (py-trello) didn't have much documentation. I must admit it took me hours to understand how to get my OAuth tokens (never used that before)! I understood how it all worked when, by luck, I found a file in the package which had the information on how to get those tokens!!! I was so glad to found documentation in the code itself. That's another lesson learned. 
 
 * I also had troubles to import the modules `requests`. It doesn't seems to be the same in python 2.7 than in python 3. Even though the package is supposed to work with 2.7, I tried to update my virutalenvironment to 3 to see if that would fix the requests import. It did, mostly. 
 
-* Lanching the script in the commandline didn't work at first. So much fun! Everything looked great, so that's also another reason why I updated to python 3. When I successfully created another virtual environment with python 3, my script was executing in the command line! 
+* Launching the script in the commandline didn't work at first. So much fun! Everything looked great, so that's also another reason why I updated to python 3. When I successfully created another virtual environment with python 3, my script was executing in the command line! 
 
-* installing the requirements from `requirements.txt` wasn't an easy tasks ! 
+* Installing the requirements from `requirements.txt` wasn't an easy tasks ! 
 
 
 ... Wow, this list is huge. At least I can be proud of what I accomplished! It took me 10 hours for now. 
@@ -42,12 +42,14 @@ Bugs I had to fix:
 
 ## What's next ? 
 
-* I hope I am able to merge similar labels in the next days 
+1. Work on tests  
 
-* I'd love to use Flask or Django to do a mini web app (never used those two), would be a learning activity too! 
+2. Complete the INSTALL.md for the installation process
 
-* Complete the readme for the installation process 
+3. Clean the code in comments (used as examples to go further) + add some comments to help understand the code (PEP8)
 
-* I'd like to ask the user which board he wants to use for the detection 
+4. I hope I am able to merge similar labels in the next days 
 
-* Clean the code in comments (used as examples to go further) + add some comments to help understand the code 
+5. I'd like to ask the user which board he wants to use for the detection 
+
+6. I'd love to use Flask or Django to do a mini web app (never used those two), would be a learning activity too! 

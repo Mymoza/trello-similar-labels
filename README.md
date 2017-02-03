@@ -25,7 +25,10 @@ Run this line to install the package:
         token_secret='your-oauth-token-secret'
     )
 
-`api_key` : Get it [here](https://trello.com/app-key) in the "Developer API Key" section. 
+### The Trello tokens 
+
+`api_key` : Get it [here](https://trello.com/app-key) in the "Developer API Key" section.
+
 `api_secret` : Get it [here](https://trello.com/app-key) in the OAuth section.
 
 ### Get the Trello OAuth tokens
@@ -62,7 +65,7 @@ Paste the PIN when you're asked, and then you'll finally receive your tokens.
 From the config of client earlier, now add these new informations : 
 
 * `token` : oauth_token
-* `token_secret` : oauth_token_secret` 
+* `token_secret` : oauth_token_secret
 
 
 

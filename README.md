@@ -110,3 +110,5 @@ Bugs I had to fix:
 * Complete the readme for the installation process 
 
 * I'd like to ask the user which board he wants to use for the detection 
+
+* Clean the code in comments (used as examples to go further) + add some comments to help understand the code 

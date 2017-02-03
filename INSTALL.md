@@ -49,13 +49,14 @@ https://trello.com/1/OAuthAuthorizeToken?oauth_token=XXX&scope=read,write&expira
 
 Go to the link as mentioned, and copy the provided PIN. Authorize it. Write `y` to say yes, and then hit enter. 
 
-```Have you authorized me? (y/n) y
+```
+Have you authorized me? (y/n) y
 What is the PIN? xxx
 Access Token:
     - oauth_token        = !!! YOUR TOKEN !!! 
     - oauth_token_secret = !!! YOUR OTHER SECRET TOKEN !!!
-
-You may now access protected resources using the access tokens above.```
+You may now access protected resources using the access tokens above.
+```
 
 Paste the PIN when you're asked, and then you'll finally receive your tokens. 
 

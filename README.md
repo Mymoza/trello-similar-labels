@@ -30,6 +30,7 @@ Bugs I had to fix:
 
 * Installing the requirements from `requirements.txt` wasn't an easy tasks ! 
 
+* Did you know that if you are already in a virtual environment, let's say "marie", if you run again `virtualenv marie` you will overwrite it?!!! You should! I wanted to activate my virtualenv and I just deleted my env all over again. Ugh! Please, run `source marie/bin/activate` if you want to activate the environment! Not `virtualenv` again...! 
 
 ... Wow, this list is huge. At least I can be proud of what I accomplished! It took me 10 hours for now. 
 

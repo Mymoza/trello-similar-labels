@@ -69,3 +69,7 @@ From the config of client earlier, now add these new informations :
 
 * `token` : oauth_token
 * `token_secret` : oauth_token_secret
+
+# To run tests 
+
+Run `python -m unittest tests/Test_TrelloWrapper.py`

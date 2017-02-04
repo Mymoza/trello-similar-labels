@@ -2,7 +2,12 @@
 
 ## Create your virtual environment 
 
-Steps will be here :) 
+1. Open your terminal
+2. Change your position to the directory of the actual project 
+3. Run `virtualenv -p python3 trello-env` to create your virtual environment 
+4. Run `source trello-env-again/bin/activate` to activate your virtual environment 
+
+You're done! If you want to exit the environment, run `deactivate` !
 
 ## Install the package 
 To do this script, I used a [wrapper](https://github.com/sarumont/py-trello) written in Python for the Trello API. 

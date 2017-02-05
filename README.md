@@ -1,6 +1,8 @@
 # Trello-Similar-Labels
 Challenge with Trello API in Python. This script can be used to detect similar label in a Trello board. 
 
+[Here](https://trello.com/b/rL2Qm3nC/unito) is the public Trello Board I used for this script.
+
 ## How to use + install this script 
 
 Read the INSTALL file :)

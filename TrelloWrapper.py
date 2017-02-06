@@ -38,7 +38,7 @@ def levenshtein_distance(first, second):
     return distance_matrix[first_length-1][second_length-1]
 
 # Ask the user which board he or she wants to use
-boardID = str(raw_input("Please enter the ID of the board you want to look at: "))
+boardID = str(input("Please enter the ID of the board you want to look at: "))
 
 # Print the name of the board to make sure we are on the right one
 if boardID:
@@ -63,8 +63,8 @@ for i in range(0, len(list_labels)-1):
 
 
 # Ask the user which label he or she wants to keep
-strlabelToKeep = str(raw_input("Please enter the name of the label you want to keep: "))
-print "you entered", strlabelToKeep
+strlabelToKeep = str(input("Please enter the name of the label you want to keep: "))
+print("you entered", strlabelToKeep)
 
 
 similarLabels = list()

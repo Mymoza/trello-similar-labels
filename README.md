@@ -14,7 +14,7 @@ Wow, I never thought I would encounter so much troubles while making this projec
 
 There is so much things I learned, and I'm not even done with this projet. 
 
-Bugs I had to fix: 
+### Bugs I had to fix
 
 * I created at least 5 different virtual environments. Yup. At least now I can say I think _hope_ I understand them now and won't be making huge mistakes anymore! 
 
@@ -36,7 +36,17 @@ Bugs I had to fix:
 
 ... Wow, this list is huge. At least I can be proud of what I accomplished! It took me 10 hours for now. 
 
-## Cool things to note 
+### What I learned 
+
+* That's why LOG320 : algorithm and data structures is a really important course! 
+
+* You can do chained comparisons in python. For example `0 < marie <= 2` that's what I always wanted to do in Java. 
+
+* Install python packages with `pip install`, no need to use `git clone` sorry, I'm a bit shy of this one, but hey, every mistake is good to learn. 
+
+* We can easily check if our python code respects PEP8 standards (I also learned about PEP8) with this simple command : `pep8 *.py` 
+
+* So much others things too, since I had to solve a lot of problems! 
 
 * I also learned about the Levenhstein distance algorithm, which is fun to work with ! 
 
@@ -45,13 +55,13 @@ Bugs I had to fix:
 
 ## What's next ? 
 
-1. Work on tests  
+1. Do more tests 
 
-2. Complete the INSTALL.md for the installation process
+2. The algorithm to merge tags is way too complex and needs to be better 
 
-3. Clean the code in comments (used as examples to go further) + add some comments to help understand the code (PEP8)
+3. Complete the INSTALL.md for the installation process
 
-4. I hope I am able to merge similar labels in the next days 
+4. Clean the code in comments (used as examples to go further) + add some comments to help understand the code (PEP8)
 
 5. I'd like to ask the user which board he wants to use for the detection 
 

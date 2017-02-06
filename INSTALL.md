@@ -1,5 +1,11 @@
 # Steps to use the script
 
+## Clone this repo 
+
+1. Open your terminal window
+2. Use `cd` command to go to your desired directory for this project 
+3. Use `git clone` with HTTPS or SSH for this repo 
+
 ## Create your virtual environment 
 
 1. Open your terminal

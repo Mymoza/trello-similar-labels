@@ -12,6 +12,7 @@
 2. Change your position to the directory of the actual project 
 3. Run `virtualenv -p python3 trello-env` to create your virtual environment 
 4. Run `source trello-env-again/bin/activate` to activate your virtual environment 
+5. Run `python -V` and make sure you are using Python 3. 
 
 You're done! If you want to exit the environment, run `deactivate` !
 
@@ -59,7 +60,6 @@ Go to the following link in your browser:
 https://trello.com/1/OAuthAuthorizeToken?oauth_token=XXX&scope=read,write&expiration=never&name=py-trello```
 
 Go to the link as mentioned, and copy the provided PIN. Authorize it. Write `y` to say yes, and then hit enter. 
-
 ```
 Have you authorized me? (y/n) y
 What is the PIN? xxx
@@ -75,6 +75,11 @@ From the config of client earlier, now add these new informations :
 
 * `token` : oauth_token
 * `token_secret` : oauth_token_secret
+
+## Run the script 
+
+1. Make sure you are still in the right directory where is the repo. If not, use `cd`.
+2. Run `python3 TrelloWrapper.py` to launch the script! 
 
 # To run tests 
 
